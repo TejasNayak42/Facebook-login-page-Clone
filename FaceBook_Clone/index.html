@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>FaceBook - log in or sign up</title>
 </head>
-<body class="">
+<body class=" min-[551px]:bg-gray-100
+              max-[550px]:bg-white">
     <!-- Mobile Version -->
-    <div class="mobbody bg-white">
-        <div class=" sm:hidden container ">
+    <div class="mobbody max-[550px]:bg-white
+                min-[551px]:hidden">
+        <div class=" container ">
             <nav class="  bg-yellow-100 text-blue-500 flex ">
                 <img src="mob.png"  class=" w-3 m-1 ">
                 <span class="m-1">Get FaceBook Lite and browse faster.</span>
@@ -74,7 +76,8 @@
    
 
    <!-- Desktop Version -->
-   <div class="Deskbody bg-gray-100">
+   <div class="Deskbody  bg-gray-100 min-[551px]:bg-gray-100 
+                max-[550px]:hidden">
     <div class="container  mt-32 flex  mx-auto items-center justify-center">
         <div class="left  mt-[-70px] w-1/3 ml-2 ">
             <img src="FacebookLogo.svg" class="w-[18rem]" >
@@ -109,12 +112,6 @@
                 </span>
                 for a celebrity, brand or business.
             </span>
-        </div>
-        <div class="footer bg-white w-full">
-            <span class="text-gray-600 font-semibold">English (UK)</span>
-            <span class="">ಕನ್ನಡ</span>
-            <span class="">اردو</span>
-            <span class="">मराठी</span>
         </div>
     </div>
    </div>
